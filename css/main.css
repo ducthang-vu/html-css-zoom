@@ -13,9 +13,9 @@ button,
 button:active,
 button:focus {
   background-color: inherit;
-  border: 0;
-  border-color: inherit;
+  border-color: transparent;
   outline: 0;
+  font-size: 12px;
 }
 
 /* UTILITIES */
@@ -57,7 +57,7 @@ button:focus {
 .bar-top {
   display: flex;
   flex-direction: row-reverse;
-  padding-bottom: 20px;
+  padding: 10px 0 20px;
 }
 
 .bar-top > * {
@@ -66,6 +66,7 @@ button:focus {
 }
 
 .bar-top .central-info {
+  padding-top: 5px;
   order: 1;
 }
 
@@ -75,6 +76,12 @@ button:focus {
 
 .bar-top button:hover {
   border: 2px solid #fff;
+}
+
+.bar-top .top-righ-nav button {
+  padding: 2px 5px;
+  margin-left: 5px;
+  background: rgb(50, 50, 50)
 }
 
 /* MAIN-CONTENT */
@@ -152,11 +159,11 @@ button:focus {
   align-items: stretch;
   height: 100%;
   vertical-align: top;
+  background: rgb(70, 70, 70);
 }
 
 .bar-bottom button {
   padding: 9px;
-  background: rgb(70, 70, 70);
   color: #fff;
 }
 
