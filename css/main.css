@@ -12,7 +12,7 @@ body {
 
 /* CONTAINER */
 .container {
-  maring: 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,6 +23,8 @@ body {
 
 /* BAR-TOP */
 .bar-top {
+  display: flex;
+
   /* DEBUG:  */
   background: orange;
 }
@@ -64,6 +66,7 @@ body {
 
 .bar-bottom button {
   padding: 5px;
+  height: 35px;
 }
 
 .bar-bottom .right-nav button span {
