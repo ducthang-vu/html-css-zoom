@@ -92,6 +92,7 @@ button:focus {
   width: 1170px;
   max-width: 100%;
   padding-bottom: 10px;
+  overflow: auto;
 }
 
 .main-content .user {
