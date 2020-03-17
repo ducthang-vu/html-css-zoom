@@ -126,12 +126,13 @@ button:focus {
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 4px;
 }
 
 .main-content .user .box > * {
   background: #000;
   color: #fff;
+  padding: 4px;
+  font-size: 18px;
 }
 
 .main-content .user .box .user-name {
