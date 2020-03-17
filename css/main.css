@@ -6,4 +6,66 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+
+/* CONTAINER */
+.container {
+  maring: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: #000;
+}
+
+
+/* BAR-TOP */
+.bar-top {
+  /* DEBUG:  */
+  background: orange;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  max-width: 100%;
+}
+
+.main-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.main-content {
+  flex-grow: 1;
+  /* DEBUG:  */
+  background: blue;
+}
+
+.main-content .user {
+  flex-basis: 25%;
+}
+
+
+/* BAR-BOTTOM */
+.bar-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(100, 100, 100);
+}
+
+.bar-bottom button {
+  padding: 5px;
+}
+
+.bar-bottom .right-nav button span {
+  color: red;
 }
