@@ -24,11 +24,23 @@ body {
 /* BAR-TOP */
 .bar-top {
   display: flex;
-
-  /* DEBUG:  */
-  background: orange;
+  flex-direction: row-reverse;
 }
 
+.bar-top > * {
+  background-color: orange;
+  flex-basis: calc(100% / 3);
+}
+
+.bar-top .central-info {
+  order: 1;
+  text-align: center;
+  background-color: blue;
+}
+
+.bar-top .top-righ-nav {
+  text-align: right;
+}
 
 /* MAIN-CONTENT */
 .main-content {
