@@ -9,6 +9,23 @@ body {
   font-size: 12px;
 }
 
+/* UTILITIES */
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
 /* CONTAINER */
 .container {
   margin: 0 auto;
@@ -34,12 +51,8 @@ body {
 
 .bar-top .central-info {
   order: 1;
-  text-align: center;
 }
 
-.bar-top .top-righ-nav {
-  text-align: right;
-}
 
 /* MAIN-CONTENT */
 .main-content {
@@ -107,12 +120,25 @@ body {
 .bar-bottom {
   display: flex;
   justify-content: space-between;
-  background: rgb(100, 100, 100);
+  align-items: stretch;
+  background: rgb(70, 70, 70);
 }
 
 .bar-bottom button {
-  padding: 5px 8px;;
-  height: 35px;
+  padding: 6px 9px;
+  height: 100%;
+  background: rgb(70, 70, 70);
+  color: #fff;
+  border: 0;
+}
+
+.bar-bottom button:hover {
+  border: 1px solid #fff;
+}
+
+.bar-bottom .left-nav i:nth-child(odd),
+.bar-bottom .center-nav i {
+  padding-bottom: 4px;
 }
 
 .bar-bottom .right-nav button span {
