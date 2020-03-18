@@ -178,5 +178,6 @@ button:focus {
 }
 
 .bar-bottom .right-nav button span {
+  font-weight: 800;
   color: red;
 }
