@@ -45,7 +45,7 @@ button:focus {
 
 /* CONTAINER */
 .container {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
